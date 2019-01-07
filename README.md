@@ -7,9 +7,10 @@ git clone https://github.com/amitdhodi/spring-aop.git
 
 2. Import the project in IDE as maven project
 
-3. Run the AopServiceTest.java which runs the test case and evaluates the time taken by the service methods to complete. One method has a 5 sec sleep added and other is blank method. Log statement after running the test case would appear as shoen below on console:
+3. Run the AopServiceTest.java which runs the test case and evaluates the time taken by the service methods to complete. One method has a 5 sec sleep added and other is blank method. Log statement after running the test case would appear as shown below on console:
 
 Time taken to execute: void com.example.aop.service.AopService.testExecutionTimeWithSleep() 5014 ms
+
 Time taken to execute: void com.example.aop.service.AopService.testExecutionTimeWithoutSleep() 0 ms
 
 # Brief Explanation:
