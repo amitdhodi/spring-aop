@@ -1,5 +1,5 @@
 # spring-aop
-A sample maven project to demonstrate the spring aspect oriented programming. 
+A sample maven project to demonstrate spring's aspect oriented programming in order to calculate the time taken by a service method to execute using @Around advice.
 
 # Steps to test the application:
 1. Clone the repository using git clone:
